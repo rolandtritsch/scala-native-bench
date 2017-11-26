@@ -1,0 +1,37 @@
+[0m[[0minfo[0m] [0mLoading global plugins from /Users/rtritsch/.sbt/0.13/plugins[0m
+[0m[[0minfo[0m] [0mLoading project definition from /Users/rtritsch/Development/Home/scala-native-bench/project[0m
+[0m[[0minfo[0m] [0mSet current project to scala-native-bench (in build file:/Users/rtritsch/Development/Home/scala-native-bench/)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/rtritsch/Development/Home/scala-native-bench/target/scala-2.11/classes...[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/rtritsch/Development/Home/scala-native-bench/target/scala-2.11/classes...[0m
+[0m[[0minfo[0m] [0mLinking (1975 ms)[0m
+[0m[[0minfo[0m] [0mDiscovered 1656 classes and 11805 methods[0m
+[0m[[0minfo[0m] [0mOptimizing (2091 ms)[0m
+[0m[[0minfo[0m] [0mGenerating intermediate code (674 ms)[0m
+[0m[[0minfo[0m] [0mProduced 61 files[0m
+[0m[[0minfo[0m] [0mCompiling to native code (1895 ms)[0m
+[0m[[0minfo[0m] [0mLinking native code (293 ms)[0m
+Result Name                                   iter  min [ms] max [ms] avg [ms] stddev [ms] median [ms] p05 [ms] p95 [ms] avg [ms]
+[OK]   brainfuck.BrainfuckBenchmark           1000  21.472   77.673   24.350   6.275       22.729      32.939   22.121   23.150  
+[OK]   cd.CDBenchmark                         20    8.079    493.527  257.607  181.664     263.100     489.133  8.079    245.190 
+[OK]   deltablue.DeltaBlueBenchmark           10000 0.576    1.838    0.696    0.159       0.619       1.048    0.594    0.678   
+[OK]   fibonacci.FibonacciBenchmarkConstant   30000 0.000    0.340    0.000    0.008       0.000       0.001    0.000    0.000   
+[OK]   fibonacci.FibonacciBenchmarkFastStream 1000  9.790    13.238   10.836   0.465       10.791      11.646   10.144   10.820  
+[OK]   fibonacci.FibonacciBenchmarkSimple     1000  73.893   115.547  76.049   2.598       75.636      77.813   74.597   75.724  
+[OK]   fibonacci.FibonacciBenchmarkStream     1000  22.594   29.318   24.426   0.704       24.281      25.487   23.775   24.338  
+[OK]   gcbench.GCBenchBenchmark               20    374.394  435.660  391.606  17.906      384.821     428.875  374.394  389.287 
+[OK]   havlak.HavlakBenchmark                 20    946.142  976.141  959.919  6.734       958.157     972.180  946.142  959.065 
+[OK]   json.JsonBenchmark                     1000  3.538    8.191    4.055    0.590       3.856       5.757    3.690    3.961   
+[OK]   list.ListBenchmark                     30000 0.060    2.259    0.064    0.015       0.061       0.080    0.060    0.062   
+[OK]   bounce.BounceBenchmark                 30000 0.092    6.902    0.115    0.069       0.100       0.163    0.094    0.106   
+[OK]   tracer.TracerBenchmark                 1000  2.424    3.709    2.615    0.177       2.551       3.006    2.466    2.596   
+[OK]   listperm.ListPermutationsBenchmark     20    63.615   72.613   66.831   2.524       65.876      71.273   63.615   66.527  
+[OK]   mandelbrot.MandelbrotBenchmark         20    0.001    217.428  101.999  88.303      93.585      214.035  0.001    95.924  
+[OK]   nbody.NbodyBenchmark                   20    182.275  204.498  191.729  6.368       188.915     202.867  182.275  191.057 
+[OK]   permute.PermuteBenchmark               30000 0.138    0.654    0.148    0.023       0.141       0.183    0.138    0.144   
+[OK]   queens.QueensBenchmark                 10000 0.446    4.760    0.495    0.157       0.469       0.556    0.454    0.480   
+[OK]   richards.RichardsBenchmark             30000 0.186    3.748    0.202    0.065       0.191       0.245    0.188    0.196   
+[OK]   sieve.SieveBenchmark                   30000 0.178    2.651    0.194    0.041       0.185       0.239    0.179    0.189   
+[OK]   storage.StorageBenchmark               10000 0.527    1.694    0.690    0.208       0.570       1.077    0.547    0.673   
+[OK]   sudoku.SudokuBenchmark                 1000  5.394    9.596    5.960    0.460       5.963       6.631    5.482    5.911   
+[OK]   towers.TowersBenchmark                 30000 0.143    0.920    0.153    0.021       0.146       0.184    0.143    0.149   
+[0m[[32msuccess[0m] [0mTotal time: 476 s, completed 26-Nov-2017 15:23:34[0m

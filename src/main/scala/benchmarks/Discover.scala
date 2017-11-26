@@ -21,6 +21,10 @@ object Discover {
     new storage.StorageBenchmark,
     new sudoku.SudokuBenchmark,
     new towers.TowersBenchmark,
-    new tracer.TracerBenchmark
+    new tracer.TracerBenchmark,
+    new fibonacci.FibonacciBenchmarkSimple,
+    new fibonacci.FibonacciBenchmarkStream,
+    new fibonacci.FibonacciBenchmarkFastStream,
+    new fibonacci.FibonacciBenchmarkConstant
   )
 }
