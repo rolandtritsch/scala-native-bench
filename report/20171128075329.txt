@@ -1,0 +1,36 @@
+[0m[[0minfo[0m] [0mLoading global plugins from /Users/rtritsch/.sbt/0.13/plugins[0m
+[0m[[0minfo[0m] [0mLoading project definition from /Users/rtritsch/Development/Home/scala-native-bench/project[0m
+[0m[[0minfo[0m] [0mSet current project to scala-native-bench (in build file:/Users/rtritsch/Development/Home/scala-native-bench/)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/rtritsch/Development/Home/scala-native-bench/target/scala-2.11/classes...[0m
+[0m[[0minfo[0m] [0mLinking (3256 ms)[0m
+[0m[[0minfo[0m] [0mDiscovered 1656 classes and 11805 methods[0m
+[0m[[0minfo[0m] [0mOptimizing (2125 ms)[0m
+[0m[[0minfo[0m] [0mGenerating intermediate code (717 ms)[0m
+[0m[[0minfo[0m] [0mProduced 61 files[0m
+[0m[[0minfo[0m] [0mCompiling to native code (1511 ms)[0m
+[0m[[0minfo[0m] [0mLinking native code (568 ms)[0m
+Result Name                                   iter  min [ms] max [ms] avg [ms] stddev [ms] median [ms] p05 [ms] p95 [ms] avg [ms]
+[OK]   brainfuck.BrainfuckBenchmark           1000  22.257   73.418   27.026   8.207       24.087      43.721   22.813   25.551  
+[OK]   cd.CDBenchmark                         20    8.042    577.967  274.518  199.752     258.452     543.415  8.042    258.547 
+[OK]   deltablue.DeltaBlueBenchmark           10000 0.582    1.499    0.682    0.159       0.611       1.060    0.588    0.662   
+[OK]   fibonacci.FibonacciBenchmarkConstant   30000 0.000    0.350    0.001    0.011       0.000       0.001    0.000    0.001   
+[OK]   fibonacci.FibonacciBenchmarkFastStream 1000  11.584   41.663   13.615   2.810       13.074      15.704   12.067   13.180  
+[OK]   fibonacci.FibonacciBenchmarkSimple     1000  72.630   101.075  79.915   5.001       78.086      88.614   74.187   79.673  
+[OK]   fibonacci.FibonacciBenchmarkStream     1000  35.467   46.672   38.933   1.887       38.724      42.506   36.193   38.814  
+[OK]   gcbench.GCBenchBenchmark               20    410.980  429.278  419.006  4.981       417.943     426.345  410.980  418.465 
+[OK]   havlak.HavlakBenchmark                 20    1063.114 1177.789 1102.919 24.040      1100.033    1144.582 1063.114 1098.978
+[OK]   json.JsonBenchmark                     1000  4.204    8.942    4.799    0.854       4.573       6.901    4.347    4.640   
+[OK]   list.ListBenchmark                     30000 0.065    4.074    0.069    0.024       0.067       0.078    0.065    0.067   
+[OK]   bounce.BounceBenchmark                 30000 0.093    0.778    0.107    0.045       0.098       0.132    0.094    0.101   
+[OK]   tracer.TracerBenchmark                 1000  2.811    4.106    3.056    0.189       3.004       3.461    2.867    3.034   
+[OK]   listperm.ListPermutationsBenchmark     20    67.753   75.783   70.940   2.231       71.220      74.036   67.753   70.685  
+[OK]   mandelbrot.MandelbrotBenchmark         20    0.002    232.531  108.325  94.078      98.957      225.293  0.002    101.788 
+[OK]   nbody.NbodyBenchmark                   20    190.447  222.355  203.838  7.444       202.866     212.261  190.447  202.863 
+[OK]   permute.PermuteBenchmark               30000 0.190    18.664   0.250    0.198       0.222       0.360    0.199    0.240   
+[OK]   queens.QueensBenchmark                 10000 0.638    5.451    0.713    0.209       0.678       0.859    0.653    0.688   
+[OK]   richards.RichardsBenchmark             30000 0.266    4.922    0.283    0.080       0.273       0.346    0.269    0.276   
+[OK]   sieve.SieveBenchmark                   30000 0.255    10.228   0.286    0.083       0.273       0.389    0.266    0.279   
+[OK]   storage.StorageBenchmark               10000 0.602    2.482    0.796    0.255       0.654       1.269    0.620    0.775   
+[OK]   sudoku.SudokuBenchmark                 1000  6.301    10.177   7.106    0.559       7.086       8.064    6.438    7.052   
+[OK]   towers.TowersBenchmark                 30000 0.168    0.970    0.177    0.015       0.173       0.190    0.168    0.175   
+[0m[[32msuccess[0m] [0mTotal time: 571 s, completed 28-Nov-2017 08:03:06[0m

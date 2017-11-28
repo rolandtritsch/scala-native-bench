@@ -13,8 +13,10 @@ With that ... you just need to ...
 * install git (`brew install git`)
 * install sbt (`brew install sbt`)
 * clone this repo (`git clone ...`)
-* run the benchmarks (`sbt run`)
-  * Note: This will take 5 mins. Get a coffee. Be patient. No output until the end.
+* build the benchmarks (`sbt compile`)
+* run the benchmarks (`sbt run > report/$(date '+%Y%m%d%H%M%S').txt`)
+  * Note: This will take 5 mins. Get a coffee. Be patient.
+* look at the result in the report directory.
 
 And as a bonus I added the [Fibonacci benchmarks](https://github.com/rolandtritsch/scala-fib-bench).
 
