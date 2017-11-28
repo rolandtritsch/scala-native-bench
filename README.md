@@ -18,4 +18,4 @@ With that ... you just need to ...
 
 And as a bonus I added the [Fibonacci benchmarks](https://github.com/rolandtritsch/scala-fib-bench).
 
-A sample for a test run result is in results.txt.
+A sample for a test run result is in report/results.txt.

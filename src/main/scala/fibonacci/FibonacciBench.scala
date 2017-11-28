@@ -9,7 +9,7 @@ class FibonacciBenchmarkSimple extends benchmarks.Benchmark[Int] {
 
   override def run(): Int = {
     val random = new Random()
-    val ignore = Fibonacci.fib1(Math.abs(random.next % 30))
+    //val ignore = Fibonacci.fib1(Math.abs(random.next % 30))
     val result = Fibonacci.fib1(30)
     result
   }
@@ -23,12 +23,12 @@ class FibonacciBenchmarkStream extends benchmarks.Benchmark[Int] {
 
   override def run(): Int = {
     val random = new Random()
-    val ignore = Fibonacci.fib2(Math.abs(random.next % 30000))
-    val result = Fibonacci.fib2(30)
+    //val ignore = Fibonacci.fib2(Math.abs(random.next % 30000))
+    val result = Fibonacci.fib2(30000)
     result
   }
 
-  override def check(result: Int) = result == 832040
+  override def check(result: Int) = result == -60422592
 }
 
 class FibonacciBenchmarkFastStream extends benchmarks.Benchmark[Int] {
@@ -37,12 +37,12 @@ class FibonacciBenchmarkFastStream extends benchmarks.Benchmark[Int] {
 
   override def run(): Int = {
     val random = new Random()
-    val ignore = Fibonacci.fib3(Math.abs(random.next % 30000))
-    val result = Fibonacci.fib3(30)
+    //val ignore = Fibonacci.fib3(Math.abs(random.next % 30000))
+    val result = Fibonacci.fib3(30000)
     result
   }
 
-  override def check(result: Int) = result == 832040
+  override def check(result: Int) = result == -60422592
 }
 
 class FibonacciBenchmarkConstant extends benchmarks.Benchmark[Int] {
@@ -51,10 +51,10 @@ class FibonacciBenchmarkConstant extends benchmarks.Benchmark[Int] {
 
   override def run(): Int = {
     val random = new Random()
-    val ignore = Fibonacci.fib4(Math.abs(random.next % 30))
-    val result = Fibonacci.fib4(30)
+    //val ignore = Fibonacci.fib4(Math.abs(random.next % 30))
+    val result = Fibonacci.fib4(30000)
     result
   }
 
-  override def check(result: Int) = result == 832040
+  override def check(result: Int) = result == -60422592
 }
