@@ -1,0 +1,119 @@
+[0m[[0minfo[0m] [0mLoading global plugins from /Users/rtritsch/.sbt/0.13/plugins[0m
+[0m[[0minfo[0m] [0mLoading project definition from /Users/rtritsch/Development/Home/scala-native-bench/project[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/rtritsch/Development/Home/scala-native-bench/project/}scala-native-bench-build...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#global-plugins;0.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-native#sbt-scala-native;0.3.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-native#tools_2.10;0.3.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-native#nir_2.10;0.3.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-native#util_2.10;0.3.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.lihaoyi#fastparse_2.10;0.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.lihaoyi#fastparse-utils_2.10;0.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scalamacros#quasiquotes_2.10;2.1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.lihaoyi#sourcecode_2.10;0.1.3 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.lihaoyi#scalaparse_2.10;0.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-native#sbt-crossproject;0.2.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#actions;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classpath;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#interface;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#io;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#control;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#launcher-interface;1.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#completion;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#collections;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving jline#jline;2.14.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#api;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#classfile;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logging;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#process;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-integration;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#incremental-compiler;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#relation;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compile;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#persist;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-tools.sbinary#sbinary_2.10;0.4.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-ivy-integration;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#ivy;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cross;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.jcraft#jsch;0.1.50 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#serialization_2.10;0.1.2 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-pickling_2.10;0.10.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scalamacros#quasiquotes_2.10;2.0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.10;3.2.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.10;3.2.10 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#jawn-parser_2.10;0.6.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.spire-math#json4s-support_2.10;0.6.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#run;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#task-system;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tasks;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#tracking;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#cache;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#testing;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-agent;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#main-settings;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#apply-macro;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#command;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#template-resolver;0.1 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#logic;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#compiler-interface;0.13.16 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
+[0m[[0minfo[0m] [0mSet current project to scala-native-bench (in build file:/Users/rtritsch/Development/Home/scala-native-bench/)[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/rtritsch/Development/Home/scala-native-bench/}scala-native-bench...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-native#nativelib_native0.3_2.11;0.3.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-native#javalib_native0.3_2.11;0.3.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-native#auxlib_native0.3_2.11;0.3.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-native#scalalib_native0.3_2.11;0.3.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-native#test-interface_native0.3_2.11;0.3.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-native#test-interface-serialization_native0.3_2.11;0.3.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-native#test-interface-sbt-defs_native0.3_2.11;0.3.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-native#nscplugin_2.11.11;0.3.6 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.11 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
+[A[2K[0m[[0minfo[0m] [0mResolving jline#jline;2.14.3 ...[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
+[0m[[0minfo[0m] [0mCompiling 73 Scala sources to /Users/rtritsch/Development/Home/scala-native-bench/target/scala-2.11/classes...[0m
+[0m[[0minfo[0m] [0mLinking (1651 ms)[0m
+[0m[[0minfo[0m] [0mDiscovered 1676 classes and 11939 methods[0m
+[0m[[0minfo[0m] [0mOptimizing (3280 ms)[0m
+[0m[[0minfo[0m] [0mGenerating intermediate code (1510 ms)[0m
+[0m[[0minfo[0m] [0mProduced 1 files[0m
+[0m[[0minfo[0m] [0mCompiling to native code (19133 ms)[0m
+[0m[[0minfo[0m] [0mLinking native code (278 ms)[0m
+Result Name                                   iter  min [ms] max [ms] avg [ms] stddev [ms] median [ms] p05 [ms] p95 [ms] avg [ms]
+[OK]   brainfuck.BrainfuckBenchmark           1000  12.936   48.481   17.149   3.699       16.147      25.068   14.906   16.549  
+[OK]   cd.CDBenchmark                         20    4.631    297.356  150.321  108.963     151.657     296.899  4.631    142.582 
+[OK]   deltablue.DeltaBlueBenchmark           10000 0.236    0.840    0.296    0.128       0.241       0.615    0.237    0.280   
+[OK]   fibonacci.FibonacciBenchmarkConstant   30000 0.000    0.381    0.001    0.011       0.000       0.001    0.000    0.000   
+[OK]   fibonacci.FibonacciBenchmarkFastStream 1000  5.582    24.009   8.078    1.632       7.873       9.509    6.577    7.884   
+[OK]   fibonacci.FibonacciBenchmarkSimple     1000  43.432   77.100   45.341   2.182       45.073      46.660   43.926   45.115  
+[OK]   fibonacci.FibonacciBenchmarkStream     1000  13.182   50.450   15.666   3.437       15.243      18.739   13.685   15.122  
+[OK]   gcbench.GCBenchBenchmark               20    310.109  338.735  327.220  5.537       326.897     333.751  310.109  326.614 
+[OK]   havlak.HavlakBenchmark                 20    478.081  512.717  486.174  7.431       484.815     496.003  478.081  484.777 
+[OK]   json.JsonBenchmark                     1000  1.794    4.937    2.218    0.480       2.070       3.667    1.907    2.139   
+[OK]   list.ListBenchmark                     30000 0.016    2.250    0.018    0.013       0.016       0.023    0.016    0.017   
+[OK]   bounce.BounceBenchmark                 30000 0.043    0.658    0.050    0.039       0.045       0.053    0.043    0.045   
+[OK]   tracer.TracerBenchmark                 1000  1.647    2.694    1.911    0.197       1.821       2.289    1.723    1.897   
+[OK]   listperm.ListPermutationsBenchmark     20    20.754   27.200   22.519   1.610       22.042      26.565   20.754   22.273  
+[OK]   mandelbrot.MandelbrotBenchmark         20    0.001    114.386  53.801   46.641      49.676      112.918  0.001    50.612  
+[OK]   nbody.NbodyBenchmark                   20    48.536   57.185   51.577   2.575       50.900      56.775   48.536   51.282  
+[OK]   permute.PermuteBenchmark               30000 0.036    0.734    0.040    0.007       0.037       0.049    0.037    0.039   
+[OK]   queens.QueensBenchmark                 10000 0.363    4.423    0.412    0.127       0.386       0.479    0.371    0.399   
+[OK]   richards.RichardsBenchmark             30000 0.067    2.175    0.074    0.040       0.070       0.090    0.069    0.072   
+[OK]   sieve.SieveBenchmark                   30000 0.045    1.590    0.048    0.019       0.046       0.058    0.045    0.047   
+[OK]   storage.StorageBenchmark               10000 0.308    1.364    0.460    0.197       0.337       0.812    0.322    0.446   
+[OK]   sudoku.SudokuBenchmark                 1000  2.247    5.752    2.699    0.319       2.801       3.112    2.331    2.679   
+[OK]   towers.TowersBenchmark                 30000 0.042    0.735    0.047    0.010       0.044       0.062    0.043    0.046   
+[0m[[32msuccess[0m] [0mTotal time: 306 s, completed 01-Jan-2018 19:55:59[0m
